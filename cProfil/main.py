@@ -26,17 +26,6 @@ def is_premier(x):
                 return False
     return True
 
-def is_premier2(x):
-    """
-    Check si le nombre est un nombre premier
-    :param x:
-    :return:
-    """
-    for i in range(2,int(x**0.5)+1):
-        if x % i == 0:
-            return False
-    return True
-
 
 def trouver_premiers(num):
     premier = []
